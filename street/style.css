@@ -46,7 +46,7 @@
 }
 .PlayStore {
     cursor: pointer;
-    background: rgba(0, 0, 0, 0) url("/media/icons/play-store.svg") no-repeat
+    background: rgba(0, 0, 0, 0) url("../media/icons/play-store.svg") no-repeat
         scroll 0% 0% / contain;
     display: inline-flex;
     height: 52px;
