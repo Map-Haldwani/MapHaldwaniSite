@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contribute</title>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+        <link href="../media/favicon.ico" rel="icon" />
+
+        <link rel="stylesheet" href="../css/defaults.css" />
+        <link rel="stylesheet" href="../css/footer.css" />
+        <link rel="stylesheet" href="../css/header.css" />
+        <link rel="stylesheet" href="../css/table.css" />
+
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="header">
+            <div
+                class="headerContent"
+                href="../index.html"
+                style="cursor: pointer"
+            >
+                <image src="../media/logo.png" width="50px"></image
+                ><a>Map Haldwani</a>
+            </div>
+        </div>
+        <script>
+            $(window).on("scroll", function () {
+                if ($(window).scrollTop() > 50) {
+                    $(".header").addClass("active");
+                } else {
+                    $(".header").removeClass("active");
+                }
+            });
+        </script>
+
+        <div class="topContent">
+            <div id="firstRow" class="tableContainer">
+                <div id="firstRowBox1" class="tableContent">
+                    <div class="topHeader">
+                        Contribute data to make maps more accurate
+                    </div>
+                    <div class="topText">
+                        Edit and contribute data of your locality to make maps
+                        more accurate and perfect.
+                    </div>
+                </div>
+                <div id="firstRowBox2" class="tableContent tableImage">
+                    <img
+                        src="../media/icons/osm.svg"
+                        style="border-radius: 24px"
+                    />
+                </div>
+            </div>
+        </div>
+        <div class="doodleBorder"></div>
+    </body>
+</html>
