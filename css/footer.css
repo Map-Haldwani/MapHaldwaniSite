@@ -29,11 +29,11 @@
     height: 28px;
 }
 .footerSocialIcon.iconTg {
-    background: url("/media/icons/telegram.svg") no-repeat scroll center center /
-        contain;
+    background: url("../media/icons/telegram.svg") no-repeat scroll center
+        center / contain;
 }
 .footerSocialIcon.iconGit {
-    background: url("/media/icons/github.svg") no-repeat scroll center center /
+    background: url("../media/icons/github.svg") no-repeat scroll center center /
         contain;
 }
 
